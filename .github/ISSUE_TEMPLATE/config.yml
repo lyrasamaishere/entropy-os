@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 匿名反馈 / Anonymous feedback
+    url: https://lyrasama.com/feedback
+    about: 这个仓库不受理 issue，请通过网站的匿名反馈提交。This repository does not accept issues; please use the website's anonymous feedback form.
