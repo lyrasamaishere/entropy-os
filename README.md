@@ -33,6 +33,8 @@ Entropy OS 是基于 Debian 13（trixie）构建的桌面操作系统，自带�
 - 推荐 Intel 或 AMD 显卡；要用本机 AI 模型的完整功能，推荐 6–8 GB 以上显存
 - 8 GB 以上的 U 盘，用来制作安装盘
 
+本软件不是为交通工具运行和控制、医疗器械、核设施、关键基础设施控制等一旦出错可能危及生命或造成重大损害的用途设计的（用户协议第 7 条第 5 项）。
+
 ## 下载
 
 请到 **[lyrasama.com/os](https://lyrasama.com/os/)** 下载。下载页上有：
@@ -100,6 +102,8 @@ Entropy OS は、Debian 13（trixie）をベースにしたデスクトップ OS
 - Intel または AMD のグラフィックスを推奨。ローカルの AI 機能をすべて使うには、ビデオメモリー 6〜8 GB 以上を推奨
 - インストール用に 8 GB 以上の USB メモリー
 
+本ソフトウェアは、交通機関の運行・制御、医療機器、原子力施設、重要インフラの制御など、故障が人の生命や重大な損害につながる用途向けに設計されていません（使用許諾契約 第 7 条第 5 号）。
+
 ### ダウンロード
 
 **[lyrasama.com/ja/os](https://lyrasama.com/ja/os/)** からダウンロードしてください。ISO ファイル、SHA256 のチェックサム、署名ファイル、署名用公開鍵のフィンガープリント、USB メモリーの作り方と検証の手順を載せています。このアドレス以外からはダウンロードせず、インストールの前にチェックサムと署名を確認してください。
@@ -155,6 +159,8 @@ This repository contains only this description, screenshots and links. **It does
 - 8 GB of memory at least, 16 GB or more recommended
 - Intel or AMD graphics recommended; 6–8 GB of video memory or more for the full local AI features
 - A USB stick of 8 GB or more for the installer
+
+The Software is not designed for uses where a failure could endanger life or cause serious damage, such as operating or controlling vehicles, medical devices, nuclear facilities or critical infrastructure (License Agreement, Article 7, item 5).
 
 ### Known issues
 
