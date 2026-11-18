@@ -1,6 +1,6 @@
 # Entropy OS（熵 OS）
 
-[English](#english)
+[中文](#entropy-os熵-os) · [日本語](#日本語) · [English](#english)
 
 Entropy OS 是基于 Debian 13（trixie）构建的桌面操作系统，自带本机运行的 AI 助手。
 
@@ -71,11 +71,70 @@ Entropy OS 不是 Debian 项目的产品，未获 Debian 项目或 SPI 的赞助
 
 ---
 
+## 日本語
+
+Entropy OS は、Debian 13（trixie）をベースにしたデスクトップ OS です。パソコン上で動く AI アシスタントを備えています。
+
+このリポジトリには説明、スクリーンショット、リンクだけを置いています。**Entropy OS のソースコードは含まれていません。** ダウンロード、オープンソース部品のソースコード、使用許諾契約は [lyrasama.com/ja/os](https://lyrasama.com/ja/os/) にあります。
+
+### 主な特長
+
+- **ローカル優先**：アシスタントは標準でこのパソコン上のモデルを使い、ファイル、画面、音声はこのパソコンの中で処理します。クラウドのモデルは標準でオフで、送信する内容を一覧で示したうえで、あなたが同意した場合にだけ使います。
+- **AI があればもっと便利、なくても使える**：グラフィックボードやモデルがなくても、システム、アプリ、ファイル操作はいつもどおり使えます。アシスタントはモデルが用意できてから有効になります。
+- **個人情報を集めません**：システム自体にテレメトリーのコードはなく、利用データを収集・送信しません。同梱の Firefox は Mozilla の初期設定に従って Mozilla にデータを送信します。Firefox の設定でオフにできます。
+- **実行前に必ず確認**：削除、上書き、送信、インストールなど元に戻しにくい操作は、アシスタントが必ず先にあなたの確認を求めます。
+
+### エディション
+
+| | 個人版 | 企業版 |
+|---|---|---|
+| 対象 | 個人が自分のパソコンで使う | 会社や学校などの組織で一括導入する |
+| メディア形式 | AAC-LC の音声と AMR の音声を再生できます。H.264 は設定で選ぶと Cisco の OpenH264 をダウンロードします | 特許のあるコーデックは含みません。組織が自ら保有するライセンスで補います |
+| ディスク全体の暗号化 | インストール時に選択 | 標準でオン |
+
+### 動作環境
+
+- UEFI で起動（従来の BIOS には対応していません）。セキュアブートをオンにしたままインストールできます
+- 64 ビットの x86（amd64）プロセッサー、4 コア以上
+- メモリー 8 GB 以上、16 GB 以上を推奨
+- Intel または AMD のグラフィックスを推奨。ローカルの AI 機能をすべて使うには、ビデオメモリー 6〜8 GB 以上を推奨
+- インストール用に 8 GB 以上の USB メモリー
+
+### ダウンロード
+
+**[lyrasama.com/ja/os](https://lyrasama.com/ja/os/)** からダウンロードしてください。ISO ファイル、SHA256 のチェックサム、署名ファイル、署名用公開鍵のフィンガープリント、USB メモリーの作り方と検証の手順を載せています。このアドレス以外からはダウンロードせず、インストールの前にチェックサムと署名を確認してください。
+
+### 既知の問題
+
+- 最近の NVIDIA グラフィックボードでの動作はまだ確認していません。標準ではオープンソースの nouveau ドライバーを使い、NVIDIA のプロプライエタリードライバーはプリインストールしていません。
+- Microsoft UEFI CA 2011 の証明書は 2026 年 6 月に期限が切れました。イメージには新旧両方の証明書で署名された shim を使っているため、ほとんどのパソコンは影響を受けません。とても古いパソコンでセキュアブートをオンにして起動できない場合は、先にファームウェアを更新してください。
+
+### オープンソース部品
+
+- ライセンスと著作権表示：[lyrasama.com/ja/os/notice](https://lyrasama.com/ja/os/notice)
+- GPL、LGPL などのライセンスが求める対応ソースコード：[lyrasama.com/ja/os/source/](https://lyrasama.com/ja/os/source/)。各リリースについて少なくとも 3 年間提供します
+
+### ライセンス
+
+- Entropy OS 本体はプロプライエタリーソフトウェアで、[使用許諾契約](https://lyrasama.com/ja/os/eula)に基づいて提供されます。それぞれのライセンスで提供されるオープンソース部品を含みます。使用許諾契約は、オープンソースのライセンスがあなたに与える権利を制限しません。
+- このリポジトリの説明文とスクリーンショットは CC BY-ND 4.0 で提供します（https://creativecommons.org/licenses/by-nd/4.0/deed.ja ）。その中に含まれる第三者の商標、アイコン、画面要素はそれぞれの権利者に帰属し、このライセンスの対象外です。
+- 著作権者：weisen
+
+### フィードバック
+
+このリポジトリでは **issue と pull request を受け付けていません**。ご意見や不具合はウェブサイトの匿名フィードバックからお送りください：[lyrasama.com/ja/feedback](https://lyrasama.com/ja/feedback)。匿名のため、個人情報は書かないでください。
+
+### 告知
+
+Entropy OS は Debian プロジェクトの製品ではなく、Debian プロジェクトおよび SPI による後援、提携、承認を受けていません。Debian は Software in the Public Interest, Inc. の登録商標です。
+
+---
+
 ## English
 
 Entropy OS is a desktop operating system built on Debian 13 (trixie), with an AI assistant that runs on your own computer.
 
-This repository contains only this description, screenshots and links. **It does not contain the source code of Entropy OS.** Downloads, the source code of the open-source components and the license agreement are at [lyrasama.com/os](https://lyrasama.com/os/). The download page is in Chinese.
+This repository contains only this description, screenshots and links. **It does not contain the source code of Entropy OS.** Downloads, the source code of the open-source components and the license agreement are at [lyrasama.com/en/os](https://lyrasama.com/en/os/).
 
 ### Highlights
 
@@ -104,12 +163,12 @@ This repository contains only this description, screenshots and links. **It does
 
 ### Open-source components
 
-- Licenses and copyright notices: [lyrasama.com/os/notice](https://lyrasama.com/os/notice)
-- Corresponding source code required by the GPL, LGPL and similar licenses: [lyrasama.com/os/source/](https://lyrasama.com/os/source/), kept for at least three years per release
+- Licenses and copyright notices: [lyrasama.com/en/os/notice](https://lyrasama.com/en/os/notice)
+- Corresponding source code required by the GPL, LGPL and similar licenses: [lyrasama.com/en/os/source/](https://lyrasama.com/en/os/source/), kept for at least three years per release
 
 ### License
 
-- Entropy OS itself is proprietary software, provided under its [license agreement](https://lyrasama.com/os/eula), and includes open-source components under their own licenses. The agreement does not limit any rights those open-source licenses give you.
+- Entropy OS itself is proprietary software, provided under its [license agreement](https://lyrasama.com/en/os/eula), and includes open-source components under their own licenses. The agreement does not limit any rights those open-source licenses give you.
 - The text and screenshots in this repository are licensed under CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/). Third-party trademarks, icons and interface elements shown in them belong to their respective owners and are not covered by this license.
 - Copyright holder: weisen
 
