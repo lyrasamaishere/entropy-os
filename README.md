@@ -12,7 +12,7 @@ Entropy OS 是基于 Debian 13（trixie）构建的桌面操作系统，自带�
 
 - **本地优先**：AI 助手默认使用本机模型，你的文件、屏幕内容和语音都在本机处理。云端模型默认关闭，要你单独同意才会用，并会先列出会发送哪些内容。
 - **有 AI 更好，没有 AI 也能用**：没有独立显卡、或者还没下载模型时，系统、软件和文件操作都照常可用，助手功能等有了模型再打开。
-- **不收集个人信息**：系统本身没有遥测代码，不收集、也不上传使用数据。
+- **不收集个人信息**：系统本身没有遥测代码，不收集、也不上传使用数据。随附的 Firefox 按 Mozilla 的默认设置向 Mozilla 发送数据，可以在 Firefox 设置里关闭。
 - **执行前必须确认**：删除、覆盖、发送、安装等可能造成不可逆影响的操作，助手都要先得到你的确认。
 
 ![首次设置：隐私](screenshots/first-boot-privacy.png)
@@ -58,7 +58,7 @@ Entropy OS 包含许多开源软件，例如 Linux 内核、桌面环境、系�
 ## 许可
 
 - Entropy OS 本身是专有软件，按[用户协议](https://lyrasama.com/os/eula)提供，同时包含按各自许可提供的开源组件。用户协议不限制开源许可给你的任何权利。
-- 本仓库的说明文字和截图：[许可待定]
+- 本仓库的说明文字和截图按 CC BY-ND 4.0 提供（https://creativecommons.org/licenses/by-nd/4.0/ ）；其中出现的第三方商标、图标和界面元素归各自的权利人，不在此许可范围内。
 - 著作权人：weisen
 
 ## 反馈
@@ -81,7 +81,7 @@ This repository contains only this description, screenshots and links. **It does
 
 - **Local first.** The assistant uses a model on your computer by default; your files, screen and voice are processed locally. Cloud models are off by default and are used only after you agree, with a list of what would be sent.
 - **Better with AI, fine without it.** Without a graphics card or a model, the system, apps and files work as usual; the assistant switches on once a model is available.
-- **No personal data collected.** The system has no telemetry code and sends no usage data.
+- **No personal data collected.** The system has no telemetry code and sends no usage data. The bundled Firefox sends data to Mozilla under Mozilla's default settings; you can turn this off in Firefox's settings.
 - **Confirmation before action.** Deleting, overwriting, sending, installing and other actions that are hard to undo always ask you first.
 
 ### Editions
@@ -110,7 +110,7 @@ This repository contains only this description, screenshots and links. **It does
 ### License
 
 - Entropy OS itself is proprietary software, provided under its [license agreement](https://lyrasama.com/os/eula), and includes open-source components under their own licenses. The agreement does not limit any rights those open-source licenses give you.
-- Text and screenshots in this repository: [license to be decided]
+- The text and screenshots in this repository are licensed under CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/). Third-party trademarks, icons and interface elements shown in them belong to their respective owners and are not covered by this license.
 - Copyright holder: weisen
 
 ### Feedback
