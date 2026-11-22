@@ -8,6 +8,15 @@ Entropy OS 是基于 Debian 13（trixie）构建的桌面操作系统，自带�
 
 ![Entropy OS 安装程序](screenshots/installer.png)
 
+## 1.0 版
+
+- **版本**：1.0，2026 年 11 月 22 日发布。基于 Debian 13（trixie）、Linux 6.12 和 KDE Plasma 6。
+- **发布说明**：[中文](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.md)、[日本語](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.ja.md)、[English](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.en.md)
+- **预装 Entropy Office**：文档、PDF、OFD、扫描与文字识别，不用另外安装。
+- **三种界面语言**：中文、日文、英文；预装中文拼音输入和日文输入（Mozc）。
+- **安装前请备份**：选择「抹除磁盘」会格式化整块硬盘，并删除原有系统和文件。
+- **反馈**：[lyrasama.com/contact](https://lyrasama.com/contact)
+
 ## 核心特点
 
 - **本地优先**：AI 助手默认使用本机模型，你的文件、屏幕内容和语音都在本机处理。云端模型默认关闭，要你单独同意才会用，并会先列出会发送哪些内容。
@@ -22,8 +31,8 @@ Entropy OS 是基于 Debian 13（trixie）构建的桌面操作系统，自带�
 | | 个人版 | 企业版 |
 |---|---|---|
 | 适合 | 个人在自己的电脑上使用 | 公司、学校等单位统一部署 |
-| 媒体格式 | 可以播放 AAC-LC 音频和 AMR 语音；H.264 可在设置里选择从 Cisco 下载 OpenH264 | 不含专利编解码器，由单位按自己持有的许可补齐 |
-| 全盘加密 | 安装时可选 | 默认开启 |
+| 媒体格式 | 可以播放 AAC-LC 音频和 AMR 语音；HEVC、HEIC 不支持 | 编解码器按企业使用的许可范围构建，不含 AAC、AMR 等专利编解码器 |
+| 全盘加密 | 安装时可选 | 安装时可选 |
 
 ## 系统要求
 
@@ -32,7 +41,7 @@ Entropy OS 是基于 Debian 13（trixie）构建的桌面操作系统，自带�
 - 内存最少 2 GB，推荐 8 GB 以上；要用本机 AI 模型，建议 16 GB
 - 硬盘最少 20 GB，推荐 64 GB 以上
 - 推荐 Intel 或 AMD 显卡；要用本机 AI 模型的完整功能，推荐 6–8 GB 以上显存
-- 8 GB 以上的 U 盘，用来制作安装盘
+- 4 GB 以上的 U 盘，用来制作安装盘（ISO 约 2.34 GiB）
 
 本软件不是为交通工具运行和控制、医疗器械、核设施、关键基础设施控制等一旦出错可能危及生命或造成重大损害的用途设计的（用户协议第 7 条第 5 项）。
 
@@ -67,7 +76,7 @@ Entropy OS 包含许多开源软件，例如 Linux 内核、桌面环境、系�
 
 ## 反馈
 
-这个仓库**不受理 issue 和 pull request**。问题和建议请通过网站的匿名反馈提交：[lyrasama.com/feedback](https://lyrasama.com/feedback)。反馈是匿名的，请不要填写个人信息。
+这个仓库**不受理 issue 和 pull request**。问题和建议请通过网站提交：[lyrasama.com/contact](https://lyrasama.com/contact)。反馈是匿名的，请不要填写个人信息。
 
 ## 声明
 
@@ -81,6 +90,15 @@ Entropy OS は、Debian 13（trixie）をベースにしたデスクトップ OS
 
 このリポジトリには説明、スクリーンショット、リンクだけを置いています。**Entropy OS のソースコードは含まれていません。** ダウンロード、オープンソース部品のソースコード、使用許諾契約は [lyrasama.com/ja/os](https://lyrasama.com/ja/os/) にあります。
 
+### 1.0
+
+- **バージョン**：1.0（2026 年 11 月 22 日公開）。Debian 13（trixie）、Linux 6.12、KDE Plasma 6 がベースです。
+- **リリースノート**：[日本語](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.ja.md)、[中文](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.md)、[English](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.en.md)
+- **Entropy Office をプリインストール**：文書、PDF、OFD、スキャンと文字認識。別途インストールする必要はありません。
+- **3 つの表示言語**：日本語、中国語、英語。日本語入力（Mozc）と中国語ピンイン入力をプリインストールしています。
+- **インストール前にバックアップを**：「ディスクを消去」を選ぶとディスク全体がフォーマットされ、既存のシステムとファイルは削除されます。
+- **フィードバック**：[lyrasama.com/ja/contact](https://lyrasama.com/ja/contact)
+
 ### 主な特長
 
 - **ローカル優先**：アシスタントは初期設定でこのパソコン上のモデルを使い、ファイル、画面、音声はこのパソコンの中で処理します。クラウドのモデルは初期設定でオフで、送信する内容を一覧で示したうえで、あなたが同意した場合にだけ使います。
@@ -93,8 +111,8 @@ Entropy OS は、Debian 13（trixie）をベースにしたデスクトップ OS
 | | 個人版 | 企業版 |
 |---|---|---|
 | 対象 | 個人が自分のパソコンで使う | 会社や学校などの組織で一括導入する |
-| メディア形式 | AAC-LC の音声と AMR の音声を再生できます。H.264 は設定で選ぶと Cisco の OpenH264 をダウンロードします | 特許のあるコーデックは含みません。組織が自ら保有するライセンスで補います |
-| ディスク全体の暗号化 | インストール時に選択 | 初期設定でオン |
+| メディア形式 | AAC-LC の音声と AMR の音声を再生できます。HEVC、HEIC には対応していません | コーデックは企業での利用に必要なライセンスの範囲で構築しています。AAC、AMR などの特許のあるコーデックは含みません |
+| ディスク全体の暗号化 | インストール時に選択 | インストール時に選択 |
 
 ### 動作環境
 
@@ -103,7 +121,7 @@ Entropy OS は、Debian 13（trixie）をベースにしたデスクトップ OS
 - メモリー 最低 2 GB、推奨 8 GB 以上。ローカルの AI モデルを使うなら 16 GB を推奨
 - ストレージ 最低 20 GB、推奨 64 GB 以上
 - Intel または AMD のグラフィックスを推奨。ローカルの AI 機能をすべて使うには、ビデオメモリー 6〜8 GB 以上を推奨
-- インストール用に 8 GB 以上の USB メモリー
+- インストール用に 4 GB 以上の USB メモリー（ISO は約 2.34 GiB）
 
 本ソフトウェアは、交通機関の運行・制御、医療機器、原子力施設、重要インフラの制御など、故障が人の生命や重大な損害につながる用途向けに設計されていません（使用許諾契約 第 7 条第 5 号）。
 
@@ -130,7 +148,7 @@ Entropy OS は、Debian 13（trixie）をベースにしたデスクトップ OS
 
 ### フィードバック
 
-このリポジトリでは **issue と pull request を受け付けていません**。ご意見や不具合はウェブサイトの匿名フィードバックからお送りください：[lyrasama.com/ja/feedback](https://lyrasama.com/ja/feedback)。匿名のため、個人情報は書かないでください。
+このリポジトリでは **issue と pull request を受け付けていません**。ご意見や不具合はウェブサイトからお送りください：[lyrasama.com/ja/contact](https://lyrasama.com/ja/contact)。匿名のため、個人情報は書かないでください。
 
 ### Debian との関係について
 
@@ -144,6 +162,15 @@ Entropy OS is a desktop operating system built on Debian 13 (trixie), with an AI
 
 This repository contains only this description, screenshots and links. **It does not contain the source code of Entropy OS.** Downloads, the source code of the open-source components and the license agreement are at [lyrasama.com/en/os](https://lyrasama.com/en/os/).
 
+### Version 1.0
+
+- **Version:** 1.0, released on November 22, 2026. Based on Debian 13 (trixie), Linux 6.12 and KDE Plasma 6.
+- **Release notes:** [English](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.en.md), [日本語](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.ja.md), [中文](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.md)
+- **Entropy Office preinstalled:** documents, PDF, OFD, scanning and text recognition, nothing extra to install.
+- **Three interface languages:** Chinese, Japanese and English, with Chinese Pinyin and Japanese (Mozc) input preinstalled.
+- **Back up before installing:** choosing "Erase disk" formats the whole disk and deletes the existing system and files.
+- **Feedback:** [lyrasama.com/en/contact](https://lyrasama.com/en/contact)
+
 ### Highlights
 
 - **Local first.** The assistant uses a model on your computer by default; your files, screen and voice are processed locally. Cloud models are off by default and are used only after you agree, with a list of what would be sent.
@@ -153,8 +180,8 @@ This repository contains only this description, screenshots and links. **It does
 
 ### Editions
 
-- **Personal:** for your own computer. Plays AAC-LC audio and AMR speech; H.264 via Cisco's OpenH264, downloaded only if you choose to. Full-disk encryption is optional.
-- **Enterprise:** for organizations. No patent-encumbered codecs; organizations add their own licensed ones. Full-disk encryption is on by default.
+- **Personal:** for your own computer. Plays AAC-LC audio and AMR speech; HEVC and HEIC are not supported. Full-disk encryption is optional at installation.
+- **Enterprise:** for organizations. Codecs are built for the licensing scope of business use, with no patent-encumbered codecs such as AAC and AMR. Full-disk encryption is likewise optional at installation.
 
 ### System requirements
 
@@ -163,7 +190,7 @@ This repository contains only this description, screenshots and links. **It does
 - 2 GB of memory at least, 8 GB or more recommended; 16 GB for local AI models
 - 20 GB of disk at least, 64 GB or more recommended
 - Intel or AMD graphics recommended; 6–8 GB of video memory or more for the full local AI features
-- A USB stick of 8 GB or more for the installer
+- A USB stick of 4 GB or more for the installer (the ISO is about 2.34 GiB)
 
 The Software is not designed for uses where a failure could endanger life or cause serious damage, such as operating or controlling vehicles, medical devices, nuclear facilities or critical infrastructure (License Agreement, Article 7, item 5).
 
@@ -186,7 +213,7 @@ The Software is not designed for uses where a failure could endanger life or cau
 
 ### Feedback
 
-This repository **does not accept issues or pull requests**. Please use the anonymous feedback form on the website: [lyrasama.com/feedback](https://lyrasama.com/en/feedback). It is anonymous, so please don't include personal details.
+This repository **does not accept issues or pull requests**. Please contact us through the website: [lyrasama.com/en/contact](https://lyrasama.com/en/contact). It is anonymous, so please don't include personal details.
 
 ### Notice
 
