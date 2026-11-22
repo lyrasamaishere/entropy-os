@@ -50,6 +50,7 @@ Entropy OS 是基于 Debian 13（trixie）构建的桌面操作系统，自带�
 
 - 新款 NVIDIA 显卡的支持还没有验证过。系统默认用开源的 nouveau 驱动，不预装 NVIDIA 专有驱动。
 - Microsoft UEFI CA 2011 证书已于 2026 年 6 月到期。镜像用的是同时带新旧两种签名的 shim，一般不受影响；很老的电脑开着安全启动无法启动时，请先更新主板固件。
+- 安装程序里暂时不能使用中文和日文输入法。设置用户全名时请先用拉丁字母输入，安装完成后再到系统设置里修改。
 
 ## 开源组件
 
@@ -114,6 +115,7 @@ Entropy OS は、Debian 13（trixie）をベースにしたデスクトップ OS
 
 - 最近の NVIDIA グラフィックボードでの動作はまだ確認していません。初期設定ではオープンソースの nouveau ドライバーを使い、NVIDIA のプロプライエタリドライバーはプリインストールしていません。
 - Microsoft UEFI CA 2011 の証明書は 2026 年 6 月に期限が切れました。イメージには新旧両方の証明書で署名された shim を使っているため、ほとんどのパソコンは影響を受けません。とても古いパソコンでセキュアブートをオンにして起動できない場合は、先にファームウェアを更新してください。
+- インストーラーではまだ中国語と日本語の入力メソッドを使えません。フルネームはいったんローマ字で入力し、インストール後にシステム設定で変更してください。
 
 ### オープンソース部品
 
@@ -169,6 +171,7 @@ The Software is not designed for uses where a failure could endanger life or cau
 
 - Support for recent NVIDIA graphics cards has not been verified. The open-source nouveau driver is used by default; the proprietary NVIDIA driver is not preinstalled.
 - The Microsoft UEFI CA 2011 certificate expired in June 2026. The image uses a shim signed with both the old and the new certificate, so most computers are not affected. If a very old computer will not boot with Secure Boot on, update its firmware first.
+- Chinese and Japanese input methods do not work in the installer yet. Enter the full name in Latin letters, then change it in System Settings after installation.
 
 ### Open-source components
 
