@@ -29,7 +29,8 @@ Entropy OS 是基于 Debian 13（trixie）构建的桌面操作系统，自带�
 
 - UEFI 启动（不支持传统 BIOS），可以开着安全启动安装
 - 64 位 x86（amd64）处理器，4 核以上
-- 内存最少 8 GB，推荐 16 GB 以上
+- 内存最少 2 GB，推荐 8 GB 以上；要用本机 AI 模型，建议 16 GB
+- 硬盘最少 20 GB，推荐 64 GB 以上
 - 推荐 Intel 或 AMD 显卡；要用本机 AI 模型的完整功能，推荐 6–8 GB 以上显存
 - 8 GB 以上的 U 盘，用来制作安装盘
 
@@ -98,7 +99,8 @@ Entropy OS は、Debian 13（trixie）をベースにしたデスクトップ OS
 
 - UEFI で起動（従来の BIOS には対応していません）。セキュアブートをオンにしたままインストールできます
 - 64 ビットの x86（amd64）プロセッサー、4 コア以上
-- メモリー 8 GB 以上、16 GB 以上を推奨
+- メモリー 最低 2 GB、推奨 8 GB 以上。ローカルの AI モデルを使うなら 16 GB を推奨
+- ストレージ 最低 20 GB、推奨 64 GB 以上
 - Intel または AMD のグラフィックスを推奨。ローカルの AI 機能をすべて使うには、ビデオメモリー 6〜8 GB 以上を推奨
 - インストール用に 8 GB 以上の USB メモリー
 
@@ -156,7 +158,8 @@ This repository contains only this description, screenshots and links. **It does
 
 - UEFI boot (legacy BIOS is not supported); Secure Boot can stay on
 - 64-bit x86 (amd64) processor, 4 cores or more
-- 8 GB of memory at least, 16 GB or more recommended
+- 2 GB of memory at least, 8 GB or more recommended; 16 GB for local AI models
+- 20 GB of disk at least, 64 GB or more recommended
 - Intel or AMD graphics recommended; 6–8 GB of video memory or more for the full local AI features
 - A USB stick of 8 GB or more for the installer
 
