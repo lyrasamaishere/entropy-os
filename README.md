@@ -14,6 +14,7 @@ Entropy OS 是基于 Debian 13（trixie）构建的桌面操作系统，自带�
 - **发布说明**：[中文](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.md)、[日本語](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.ja.md)、[English](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.en.md)
 - **预装 Entropy Office**：文档、PDF、OFD、扫描与文字识别，不用另外安装。
 - **三种界面语言**：中文、日文、英文；预装中文拼音输入和日文输入（Mozc）。
+- **安装教程**：[lyrasama.com/os/install](https://lyrasama.com/os/install)（安装前请先看：选「抹除磁盘」会删除原有系统和文件；分区见[第 6.4 步](https://lyrasama.com/os/install#step-6-4)）
 - **安装前请备份**：选择「抹除磁盘」会格式化整块硬盘，并删除原有系统和文件。
 - **反馈**：[lyrasama.com/contact](https://lyrasama.com/contact)
 
@@ -96,6 +97,7 @@ Entropy OS は、Debian 13（trixie）をベースにしたデスクトップ OS
 - **リリースノート**：[日本語](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.ja.md)、[中文](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.md)、[English](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.en.md)
 - **Entropy Office をプリインストール**：文書、PDF、OFD、スキャンと文字認識。別途インストールする必要はありません。
 - **3 つの表示言語**：日本語、中国語、英語。日本語入力（Mozc）と中国語ピンイン入力をプリインストールしています。
+- **インストール手順**：[lyrasama.com/ja/os/install](https://lyrasama.com/ja/os/install)（インストール前にお読みください。「ディスクを消去」を選ぶと既存のシステムとファイルは削除されます。パーティションは[6.4](https://lyrasama.com/ja/os/install#step-6-4)を参照）
 - **インストール前にバックアップを**：「ディスクを消去」を選ぶとディスク全体がフォーマットされ、既存のシステムとファイルは削除されます。
 - **フィードバック**：[lyrasama.com/ja/contact](https://lyrasama.com/ja/contact)
 
@@ -168,6 +170,7 @@ This repository contains only this description, screenshots and links. **It does
 - **Release notes:** [English](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.en.md), [日本語](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.ja.md), [中文](https://lyrasama.com/os/releases/1.0/RELEASE-NOTES.md)
 - **Entropy Office preinstalled:** documents, PDF, OFD, scanning and text recognition, nothing extra to install.
 - **Three interface languages:** Chinese, Japanese and English, with Chinese Pinyin and Japanese (Mozc) input preinstalled.
+- **How to install:** [lyrasama.com/en/os/install](https://lyrasama.com/en/os/install) (read this first: choosing "Erase disk" deletes the existing system and files; partitions are in [step 6.4](https://lyrasama.com/en/os/install#step-6-4))
 - **Back up before installing:** choosing "Erase disk" formats the whole disk and deletes the existing system and files.
 - **Feedback:** [lyrasama.com/en/contact](https://lyrasama.com/en/contact)
 
